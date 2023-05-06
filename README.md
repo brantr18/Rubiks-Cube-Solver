@@ -12,8 +12,9 @@ localhost:8080/rubik/solve?cube=ywwbbowywrrogrworobyyggbwyrgwrrooyygoryoywbbbrgb
 
 The order of the string is important because the faces must be entered as follows:
 
-"ywwbbowyw   rrogrworo   byyggbwyr   gwrrooyyg   oryoywbbb   rgbowggbg"
-  front        right       back        left        top        bottom
+"ywwbbowyw &ensp;  rrogrworo &ensp;  byyggbwyr &ensp;  gwrrooyyg &ensp;  oryoywbbb &ensp;  rgbowggbg"
+
+  &ensp;&ensp;&ensp;front &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      right &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      back &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;       left &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;       top &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      bottom
   
   
  It does not matter which side is picked to be the front face, as long as the face that is considered "front" does not change. (for me, green is always front)
@@ -28,13 +29,16 @@ The order of the string is important because the faces must be entered as follow
  
  Here's a visual:
  
- y  w  w
- b  b  o   <--- front face
- w  y  w
+ front face:<br>
+ y&emsp;w&emsp;w<br>
+ b&emsp;b&emsp;o<br>
+ w&emsp;y&emsp;w
  
- r  r  o
- g  r  w   <--- right face
- o  r  o
+ 
+ right face:<br>
+ r&emsp;&nbsp;r&emsp;o<br>
+ g&emsp;r&emsp;w<br>
+ o&emsp;r&emsp;o
  
  and so on...
  
