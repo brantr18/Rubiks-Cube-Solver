@@ -1,6 +1,6 @@
 This is a microservice built with Flask that allows a user to input a Rubik's cube configuration as a 54 character string where every 9 characters is a "face". 
 
-Once the app is launched, a local server runs on the port 8080.
+Once app.py is launched, a local server runs on the port 8080.
 
 An example input to the browser address line would be:
 
